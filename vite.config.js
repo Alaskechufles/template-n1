@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-    base: '/template-n1/',
+    /* base: '/template-n1/', */ // agregar esta linea para github pages - quitarla para vercel
     plugins: [
         tailwindcss(),
     ],
